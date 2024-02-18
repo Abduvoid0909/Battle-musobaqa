@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.header{
+    display: flex;
+    height: 100px;
+    background-color: rgb(61, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.header__box{
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+.header__box h3{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.header__h3{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+}
+.header__logo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    display: flex;
+    background-color: black;
+}
+.main__section{
+    display: flex;
+    gap: 170px;
+    padding-left: 100px;
+}
+.main__title{
+    width: 576px;
+    height: 478px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+
+}
+.main__title1{
+    width: 576px;
+    height: 478px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+
+}
+.main__title1 h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.main__title1 p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 337px;
+}
+.main__title button{
+    width: 203px;
+    height: 60px;
+    color: black;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.main__title button:hover{
+    width: 203px;
+    height: 60px;
+    color: black;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+.container h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color: black;
+}
+
+
+.card__card1{
+   width: 540px;
+   height: 231px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 100px;
+}
+.card1__head{
+    width: 510px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: 1px solid green;
+}
+.card1__head img{
+    width:45px;
+    height: 45px;
+    display: flex;
+}
+.card1__body{
+    display: flex;
+    gap: 130px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: 1px solid green;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+}
+
+
+
+
+.card__card2{
+    width: 540px;
+    height: 231px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 350px;
+ 
+ }
+ .card2__head{
+     width: 510px;
+     height: 70px;
+     display: flex;
+     align-items: center;
+     background-color: rgb(34, 34, 34);
+     color: white;
+     border: 1px solid green;
+ }
+ .card2__head img{
+     width:45px;
+     height: 45px;
+     display: flex;
+ }
+ .card2__body{
+     display: flex;
+     gap: 130px;
+     background-color: rgb(34, 34, 34);
+     color: white;
+     border: 1px solid green;
+ }
+ .title{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     padding: 20px;
+ }
+
+
+
+
+
+
+
+
+ .card__card3{
+    width: 540px;
+    height: 231px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+ 
+ }
+ .card3__head{
+     width: 510px;
+     height: 70px;
+     display: flex;
+     align-items: center;
+     background-color: rgb(34, 34, 34);
+     color: white;
+     border: 1px solid green;
+ }
+ .card3__head img{
+     width:45px;
+     height: 45px;
+     display: flex;
+ }
+ .card3__body{
+     display: flex;
+     gap: 130px;
+     background-color: rgb(34, 34, 34);
+     color: white;
+     border: 1px solid green;
+ }
+ .title{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     padding: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .our{
+    margin-top: 700px;
+ }
+ .our__box h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .our__box1{
+    display: flex;
+ }
+ .content{
+    width: 200px;
+    height: 300px;
+    color: white;
+ }
